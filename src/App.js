@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Products from './Products';
 
 class App extends Component {
    render() {
@@ -6,6 +7,7 @@ class App extends Component {
 		   <div>
 		      <h1>
 		        My First React App!
+		        <Products />
 		      </h1>
 		   </div>
 	   );
